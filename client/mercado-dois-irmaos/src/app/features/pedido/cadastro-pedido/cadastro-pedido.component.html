@@ -1,0 +1,41 @@
+<br>
+<div class="container col-6">
+    <div class="form-group">
+        <h2 class="text-center">Realizar Pedido</h2>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="salvarPedido()">
+        <br>
+        <div class="form-group">
+            <label for="cpf" class="form-label">CPF do cliente</label>
+            <input id="cpf" formControlName="cpf" type="text" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="produto" class="form-label">Produto</label>
+            <select class="form-select" formControlName="produto">
+                    <option *ngFor="let produto of listaProdutos" value={{produto.id}}>
+                        <span>{{ produto.descricao }}</span>
+                    </option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="quantidade" class="form-label">Quantidade</label>
+            <input id="quantidade" formControlName="quantidade" type="number" class="form-control"
+                autocomplete="off" [ngClass]="{ 
+            'valid':  form.get('quantidade')?.valid && !form.get('quantidade')?.pristine,
+            'invalid': form.get('quantidade')?.invalid && !form.get('quantidade')?.pristine
+        }">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Limpar" class="btn btn-outline-secondary"/>
+            {{' '}}
+            <input type="submit" value="Salvar" class="btn btn-outline-primary" [disabled]="form.invalid" />
+        </div>
+        <br>
+        <div class="alert alert-danger mt-1" *ngIf="form.invalid && !form.pristine">
+            <span *ngIf="form.get('quantidade')?.errors?.['required']">A quantidade é obrigatória.<br></span>
+        </div>
+    </form>
+</div>

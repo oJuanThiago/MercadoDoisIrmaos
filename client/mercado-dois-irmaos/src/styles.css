@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo {
+    background: #6b3adf;
+    height: 75px;
+}
+.title {
+    margin: 40px 0px 20px;
+}
+.title h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;    
+}
+.navbar {
+    background-color: #6b3adf;
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #6b3adf;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.button:hover {
+    color: black;
+}

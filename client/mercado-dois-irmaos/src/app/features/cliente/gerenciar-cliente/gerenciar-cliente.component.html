@@ -1,0 +1,44 @@
+<br>
+<div>
+    <h2 class="text-center">Gerenciar Clientes</h2>
+</div>
+
+<table class="table">
+    <thead>
+        <tr class="text-center">
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Pontos de fidelidade</th>
+            <th>Data de nascimento</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let cliente of listaClientes" class="text-center">
+            <td>{{ cliente.nome }}</td>
+            <td>{{ cliente.cpf }}</td>
+            <td>{{ cliente.ptsFidelidade }}</td>
+            <td>{{ cliente.dataNascimento | date: 'dd/MM/yyyy' }}</td>
+            <td>
+                <span>
+                    <button class="btn btn-outline-warning" [routerLink]="'/cliente/editar/' + cliente.cpf" routerLinkActive="active">
+                        Editar
+                    </button>
+                    {{' '}}
+                    <button type="button" class="btn btn-outline-danger" (click)="excluirCliente(template, cliente.cpf)">
+                        Excluir
+                    </button>
+                </span>
+            </td>
+            <ng-template #template>
+                <div class="modal-body text-center">
+                    <p>Você deseja realmente excluir o cliente {{ cliente.nome }}?</p>
+                    <button type="button" class="btn btn-default" (click)="confirmar()" >Sim</button>
+                    <button type="button" class="btn btn-primary" (click)="rejeitar()" >Não</button>
+                </div>
+              </ng-template>
+        </tr>
+    </tbody>
+</table>
+

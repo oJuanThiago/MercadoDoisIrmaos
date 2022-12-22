@@ -1,0 +1,45 @@
+<br>
+<div>
+    <h2 class="text-center">Gerenciar pedidos</h2>
+</div>
+
+<table class="table">
+    <thead>
+        <tr class="text-center">
+            <th>#</th>
+            <th>Cliente</th>
+            <th>Data do pedido</th>
+            <th>Valor total</th>
+            <th>Status</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let pedido of listaPedidos" class="text-center">
+            <th>{{ pedido.id }}</th>
+            <td>{{ pedido.cliente.nome }}</td>
+            <td>{{ pedido.dataHora | date: 'dd/MM/yyyy hh:MM' }}</td>
+            <td>{{ pedido.valorTotal }}</td>
+            <td>{{ pedido.status }}</td>
+            <td>
+                <span>
+                    <button class="btn btn-outline-warning" [routerLink]="'/pedido/editar/' + pedido.id" routerLinkActive="active">
+                        Editar
+                    </button>
+                    {{' '}}
+                    <button type="button" class="btn btn-outline-danger" (click)="excluirPedido(template, pedido.id)">
+                        Excluir
+                    </button>
+                </span>
+            </td>
+            <ng-template #template>
+                <div class="modal-body text-center">
+                    <p>Você deseja realmente excluir o pedido {{ pedido.id }}?</p>
+                    <button type="button" class="btn btn-default" (click)="confirmar()" >Sim</button>
+                    <button type="button" class="btn btn-primary" (click)="rejeitar()" >Não</button>
+                </div>
+              </ng-template>
+        </tr>
+    </tbody>
+</table>

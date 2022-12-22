@@ -1,0 +1,12 @@
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\bin\Debug\net5.0\MercadoDoisIrmaos.Domain.deps.json
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\bin\Debug\net5.0\MercadoDoisIrmaos.Domain.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\bin\Debug\net5.0\MercadoDoisIrmaos.Domain.pdb
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.csproj.AssemblyReference.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.AssemblyInfoInputs.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.AssemblyInfo.cs
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.csproj.CoreCompileInputs.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\refint\MercadoDoisIrmaos.Domain.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\MercadoDoisIrmaos.Domain.pdb
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Domain\obj\Debug\net5.0\ref\MercadoDoisIrmaos.Domain.dll

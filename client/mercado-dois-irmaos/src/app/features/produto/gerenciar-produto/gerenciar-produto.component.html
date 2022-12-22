@@ -1,0 +1,46 @@
+<br>
+<div>
+    <h2 class="text-center">Gerenciar Produtos</h2>
+</div>
+
+<table class="table">
+    <thead>
+        <tr class="text-center">
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Quantidade no estoque</th>
+            <th>Data de validade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let produto of listaProdutos" class="text-center">
+            <td>{{ produto.descricao }}</td>
+            <td>{{ produto.valor }}</td>
+            <td>{{ produto.quantidade }}</td>
+            <td>{{ produto.validade | date: 'dd/MM/yyyy' }}</td>
+            <td>
+                <span>
+                    <button class="btn btn-outline-warning" [routerLink]="'/produto/editar/' + produto.id" routerLinkActive="active">
+                        Editar
+                    </button>
+                    {{' '}}
+                    <button class="btn btn-outline-primary" [routerLink]="'/produto/estoque/' + produto.id" routerLinkActive="active">
+                        Estoque
+                    </button>
+                    {{' '}}
+                    <span *ngIf="produto.ativo">
+                        <button type="button" class="btn btn-outline-danger" (click)="ativarDesativarProduto(produto)">
+                            Desativar
+                        </button>
+                    </span>
+                    <span *ngIf="!produto.ativo">
+                        <button type="button" class="btn btn-outline-success" (click)="ativarDesativarProduto(produto)">
+                            Ativar
+                        </button>
+                    </span>
+                </span>
+            </td>
+        </tr>
+    </tbody>
+</table>

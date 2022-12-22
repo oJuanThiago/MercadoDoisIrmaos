@@ -1,0 +1,49 @@
+<div class="container-fluid menu">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand button" routerLink="/">Início</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="nav-link dropdown">
+                <button class="dropdown-toggle button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clientes
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" routerLink="/cliente/cadastro/" routerLinkActive="active">Cadastrar cliente</a></li>
+                  <li><a class="dropdown-item" routerLink="/cliente/lista/" routerLinkActive="active">Gerenciar clientes</a></li>
+                </ul>
+              </div>
+
+              <div class="nav-link dropdown">
+                <button class="dropdown-toggle button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Produtos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" routerLink="/produto/cadastro/" routerLinkActive="active">Cadastrar produto</a></li>
+                  <li><a class="dropdown-item" routerLink="/produto/lista/" routerLinkActive="active">Gerenciar produtos</a></li>
+                </ul>
+              </div>
+
+              <div class="nav-link dropdown">
+                <button class="dropdown-toggle button" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pedidos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" routerLink="/pedido/cadastro" routerLinkActive="active">Cadastrar pedido</a></li>
+                  <li><a class="dropdown-item" routerLink="/pedido/lista/" routerLinkActive="active">Gerenciar pedidos</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\bin\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.deps.json
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\bin\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\bin\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.pdb
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\bin\Debug\net5.0\MercadoDoisIrmaos.Domain.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\bin\Debug\net5.0\MercadoDoisIrmaos.Domain.pdb
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.csproj.AssemblyReference.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.AssemblyInfoInputs.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.AssemblyInfo.cs
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.csproj.CoreCompileInputs.cache
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.csproj.CopyComplete
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\refint\MercadoDoisIrmaos.Infra.Data.dll
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\MercadoDoisIrmaos.Infra.Data.pdb
+C:\TropTech\JuanThiagoMachadoProjetoFinal\server\MercadoDoisIrmaos\MercadoDoisIrmaos.Infra.Data\obj\Debug\net5.0\ref\MercadoDoisIrmaos.Infra.Data.dll
