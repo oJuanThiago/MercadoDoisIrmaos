@@ -1,10 +1,7 @@
-import { ICliente } from "../cliente/cliente.model";
-import { IProduto } from "../produto/produto.model";
-
 export interface IPedido {
     id: number;
-    cliente: ICliente;
-    produto: IProduto;
+    cpfCliente: number;
+    idProduto: number;
     dataHora: Date;
     quantidade: number;
     status: number;

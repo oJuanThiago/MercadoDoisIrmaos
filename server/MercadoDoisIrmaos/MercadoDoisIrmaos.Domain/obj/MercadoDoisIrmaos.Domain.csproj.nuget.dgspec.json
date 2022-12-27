@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {}
+    "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {}
   },
   "projects": {
-    "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {
+    "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj",
+        "projectUniqueName": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj",
         "projectName": "MercadoDoisIrmaos.Domain",
-        "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj",
+        "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj",
         "packagesPath": "C:\\Users\\juant\\.nuget\\packages\\",
-        "outputPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\obj\\",
+        "outputPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

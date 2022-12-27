@@ -20,9 +20,8 @@ namespace MercadoDoisIrmaos.Infra.Data
 
         public void RealizarPedido(Pedido novoPedido)
         {
-            if (novoPedido.Cliente != null)
+            if (novoPedido.CpfCliente != 0)
             {
-                novoPedido.Cliente = clienteDao.BuscarPorCpf(novoPedido.Cliente.CPF);
                 clienteDao.AtualizarPtsFidelidade(novoPedido);
             }
             pedidoDao.RealizarPedido(novoPedido);

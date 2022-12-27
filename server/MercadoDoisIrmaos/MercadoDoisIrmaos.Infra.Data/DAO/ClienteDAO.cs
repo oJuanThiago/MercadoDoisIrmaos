@@ -154,7 +154,9 @@ namespace MercadoDoisIrmaos.Infra.Data.DAO
 
         public void AtualizarPtsFidelidade(Pedido pedido)
         {
-            pedido.Cliente.AtribuirPtsFidelidade(pedido.ValorTotal);
+            var clienteBuscado = BuscarPorCpf(pedido.CpfCliente);
+            
+            clienteBuscado.AtribuirPtsFidelidade(pedido.ValorTotal);
 
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -169,8 +171,8 @@ namespace MercadoDoisIrmaos.Infra.Data.DAO
                                  WHERE CPF = @CPF;";
 
                     //ADICIONAR PARAMETROS
-                    ConverterObjetoParaSql(pedido.Cliente, comando);
-                    comando.Parameters.AddWithValue("@CPF", pedido.Cliente.CPF);
+                    ConverterObjetoParaSql(clienteBuscado, comando);
+                    comando.Parameters.AddWithValue("@CPF", clienteBuscado.CPF);
                     //ATRIBUIR SCRIPT
                     comando.CommandText = sql;
                     //EXECUTAR SCRIPT

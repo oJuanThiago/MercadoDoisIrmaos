@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BfdAk2LtLxTX9kmNiDSUhkFUjnE5Cw2gXjGizXL0U9HijrK44yOdr8mCc4RfdN24U9T0/IzvFwH8zjwtoUxnQg==",
+  "dgSpecHash": "Q650ucUsGQvn18Sfye2yQoBZ1OGnpr1oi96bmYGOp20GH5KXP98OIj5cCKMyXvlTu6urb5gEiQKJiSJhXyJiew==",
   "success": true,
-  "projectFilePath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj",
+  "projectFilePath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juant\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\juant\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

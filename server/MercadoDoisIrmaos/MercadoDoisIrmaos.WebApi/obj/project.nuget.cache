@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XB1Lr1maGpdW4e/athhsy1BvTM9SkOMfkAsJbQdl5F0kLxtcsVirlLBpDWlUQAod3zSrncjRA3wqzqsjTJrtw==",
+  "dgSpecHash": "milPlnf1e8fIbUXmiTcGNi1Yq5LGS+9K6naWxuiqLW9Ine+AUVOQsPcIH9RpKYSNEv3GSsAV41XI2rHfwg06Vg==",
   "success": true,
-  "projectFilePath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
+  "projectFilePath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juant\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\juant\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

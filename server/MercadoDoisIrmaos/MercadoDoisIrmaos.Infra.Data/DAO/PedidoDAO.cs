@@ -182,8 +182,8 @@ namespace MercadoDoisIrmaos.Infra.Data.DAO
         {
             var pedido = new Pedido();
             pedido.Id = int.Parse(leitor["ID_PEDIDO"].ToString());
-            pedido.Cliente.CPF = long.Parse(leitor["CPF_CLIENTE"].ToString());
-            pedido.Produto.Id = int.Parse(leitor["ID_PRODUTO"].ToString());
+            pedido.CpfCliente = long.Parse(leitor["CPF_CLIENTE"].ToString());
+            pedido.IdProduto = int.Parse(leitor["ID_PRODUTO"].ToString());
             pedido.DataHora = Convert.ToDateTime(leitor["DATA_HORA"].ToString());
             pedido.QtdProduto = int.Parse(leitor["QUANTIDADE_PRODUTO"].ToString());
             pedido.Status = int.Parse(leitor["STATUS_PEDIDO"].ToString());
@@ -196,8 +196,8 @@ namespace MercadoDoisIrmaos.Infra.Data.DAO
         {
             //ADICIONANDO PARAMETROS
                     comando.Parameters.AddWithValue("@ID_PEDIDO", pedido.Id);
-                    comando.Parameters.AddWithValue("@CPF_CLIENTE", pedido.Cliente.CPF);
-                    comando.Parameters.AddWithValue("@ID_PRODUTO", pedido.Produto.Id);
+                    comando.Parameters.AddWithValue("@CPF_CLIENTE", pedido.CpfCliente);
+                    comando.Parameters.AddWithValue("@ID_PRODUTO", pedido.IdProduto);
                     comando.Parameters.AddWithValue("@DATA_HORA", pedido.DataHora);
                     comando.Parameters.AddWithValue("@QUANTIDADE_PRODUTO", pedido.QtdProduto);
                     comando.Parameters.AddWithValue("@STATUS_PEDIDO", pedido.Status);

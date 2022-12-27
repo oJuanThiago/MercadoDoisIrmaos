@@ -677,11 +677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
+      "projectUniqueName": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
       "projectName": "MercadoDoisIrmaos.WebApi",
-      "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
+      "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\MercadoDoisIrmaos.WebApi.csproj",
       "packagesPath": "C:\\Users\\juant\\.nuget\\packages\\",
-      "outputPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\obj\\",
+      "outputPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -702,11 +702,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {
-              "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj"
+            "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj": {
+              "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Domain\\MercadoDoisIrmaos.Domain.csproj"
             },
-            "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj": {
-              "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj"
+            "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj": {
+              "projectPath": "C:\\TropTech\\JuanThiagoMachadoProjetoFinal\\MercadoDoisIrmaos\\server\\MercadoDoisIrmaos\\MercadoDoisIrmaos.Infra.Data\\MercadoDoisIrmaos.Infra.Data.csproj"
             }
           }
         }

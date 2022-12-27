@@ -8,8 +8,8 @@ namespace MercadoDoisIrmaos.Domain
     public class Pedido
     {
         public int Id { get; set; }
-        public Cliente Cliente { get; set; }
-        public Produto Produto { get; set; }
+        public long CpfCliente { get; set; }
+        public int IdProduto { get; set; }
         public DateTime DataHora { get; set; }
         public int QtdProduto { get; set; }
         public int Status { get; set; }

@@ -40,8 +40,8 @@ export class CadastroPedidoComponent implements OnInit {
     if (this.form.valid) {
       const novoCliente: IPedido = {
         id: this.form.value.id,
-        cliente: this.form.value.cliente,
-        produto: this.form.value.produto,
+        cpfCliente: this.form.value.cliente,
+        idProduto: this.form.value.produto,
         quantidade: this.form.value.quantidade,
         dataHora: this.form.value.dataHora,
         status: this.form.value.status,
